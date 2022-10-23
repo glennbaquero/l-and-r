@@ -1,0 +1,65 @@
+.bg-primary {
+    background-color: #213159;
+}
+
+.text-primary {
+    color: #213159;
+}
+
+.text-secondary {
+    color: #3d6098;
+}
+
+.bg-black-opacity-80 {
+    background-color: rgb(0 0 0 / 80%);
+}
+
+.tooltip {
+    display: none;
+}
+
+.amenities_hotspots:hover > .hotspots-icon{
+    transform: rotate(90deg);
+}
+
+.amenities_hotspots:hover > .tooltip {
+    opacity: 100%;
+    display: block;
+}
+
+.icon,
+.text {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+@keyframes line-width {
+    from {
+        width: 0%
+    }
+
+    to {
+        width: 10%
+    }
+}
+
+.animate-line {
+    animation: line-width 2s;
+    animation-fill-mode: forwards;
+}
+
+.bg-blue-opacity-80 {
+    background-color: rgb(61 96 152 / 80%);
+}
+
+.bg-custom-red {
+   background-color: #f04b4c;
+}
+
+#book-trip-now:hover{
+    box-shadow: 0px 0px 20px 2px #af3535;
+}
