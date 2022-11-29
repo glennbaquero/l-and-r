@@ -66,7 +66,7 @@ Vue.mixin({
             delete instance.defaults.headers.common['X-Requested-With'];
             delete instance.defaults.headers.common['Authorization'];
 
-            instance.get('https://maps.googleapis.com/maps/api/timezone/json?location='+ obj.latitude  + ',' + obj.longitude + '&timestamp='+ timestamp + '&key=AIzaSyD6r0SC_924b4vp9Qfq7NX9soQmiiNnh7Q')
+            instance.get('https://maps.googleapis.com/maps/api/timezone/json?location='+ obj.latitude  + ',' + obj.longitude + '&timestamp='+ timestamp + '&key=')
                 .then(response => {
                     obj.timezone_id = response.data.timeZoneId;
                     obj.timezone_name = response.data.timeZoneName;
